@@ -3,7 +3,8 @@
   "name": "Competitive Canvas Tracker",
   "version": "1.0",
   "description": "Track study XP and streaks directly in Canvas!",
-  "permissions": ["storage"],
+  "permissions": ["storage", "downloads"],
+  "host_permissions": ["https://canvas.instructure.com/*"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
