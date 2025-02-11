@@ -29,3 +29,15 @@ progress {
   list-style: none;
   padding: 0;
 }
+
+#canvas-integration {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+#canvas-integration input {
+  width: 90%;
+  margin: 5px 0;
+  padding: 5px;
+}
