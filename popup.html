@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competitive Canvas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Competitive Canvas</h2>
+  <p>Track your study progress!</p>
+  
+  <!-- XP and Progress Bar -->
+  <div id="xp-display">XP: <span id="xp-count">0</span></div>
+  <progress id="xp-bar" value="0" max="100"></progress>
+  <button id="add-xp">+50 XP</button>
+  <button id="reset-xp">Reset XP</button>
+  
+  <!-- Study Streak -->
+  <p>Current Streak: <span id="streak-count">0</span> days</p>
+  <button id="log-study">Log Study Day</button>
+  
+  <!-- Daily Challenge -->
+  <p>Daily Challenge: <span id="daily-challenge"></span></p>
+  <button id="complete-challenge">Complete Challenge</button>
+  
+  <!-- Username & Leaderboard -->
+  <div id="user-section">
+      <input type="text" id="username-input" placeholder="Enter your username">
+      <button id="save-username">Save Username</button>
+      <p id="username-display"></p>
+  </div>
+  <div id="leaderboard-section">
+      <h3>Leaderboard</h3>
+      <ul id="leaderboard-list"></ul>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
